@@ -81,7 +81,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "HeldCoin Signed Message:\n";
+const string strMessageMagic = "ThreeAces Signed Message:\n";
 
 std::set<uint256> setValidatedTx;
 
@@ -2550,14 +2550,14 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 						if(hasPayment && payeerewardpercent == 0){
 							CTxDestination address1;
 							ExtractDestination(payee, address1);
-							CHeldCoinAddress address2(address1);
+							CThreeAcesAddress address2(address1);
 							targetNode = address2.ToString().c_str();	
 						}
 
 						if(hasPayment && payeerewardpercent == 100){
 						CTxDestination address1;
 							ExtractDestination(payeerewardaddress, address1);
-							CHeldCoinAddress address2(address1);
+							CThreeAcesAddress address2(address1);
 							targetNode = address2.ToString().c_str();
 							
 						}
@@ -2565,11 +2565,11 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 						if(hasPayment && payeerewardpercent > 0 && payeerewardpercent < 100){
 							CTxDestination address1;
 							ExtractDestination(payee, address1);
-							CHeldCoinAddress address2(address1);
+							CThreeAcesAddress address2(address1);
 							
 							CTxDestination address3;
 							ExtractDestination(payeerewardaddress, address3);
-							CHeldCoinAddress address4(address3);
+							CThreeAcesAddress address4(address3);
 							targetNode = address2.ToString().c_str();
 							
 						}
@@ -2586,7 +2586,7 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
                     for (unsigned int i = 0; i < vtx[1].vout.size(); i++) {
 						CTxDestination address1;
 						ExtractDestination(vtx[1].vout[i].scriptPubKey, address1);
-						CHeldCoinAddress address2(address1);   
+						CThreeAcesAddress address2(address1);   
                         if(vtx[1].vout[i].nValue == masternodePaymentAmount )
                             foundPaymentAmount = true;
                         if(address2.ToString().c_str() == targetNode)
@@ -2597,7 +2597,7 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 
                     CTxDestination address1;
                     ExtractDestination(payee, address1);
-                    CHeldCoinAddress address2(address1);
+                    CThreeAcesAddress address2(address1);
 					if (pindexBest->nHeight+1 < 250000) { // TODO: remove magic number; use in one place
 						foundPaymentAmount = true;
 						foundPayee = true;
@@ -3302,7 +3302,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("HeldCoin-loadblk");
+    RenameThread("ThreeAces-loadblk");
 
     CImportingNow imp;
 

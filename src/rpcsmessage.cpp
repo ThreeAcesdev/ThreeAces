@@ -167,7 +167,7 @@ Value smsglocalkeys(const Array& params, bool fHelp)
                 && !it->fReceiveEnabled)
                 continue;
             
-            CHeldCoinAddress coinAddress(it->sAddress);
+            CThreeAcesAddress coinAddress(it->sAddress);
             if (!coinAddress.IsValid())
                 continue;
             
@@ -306,7 +306,7 @@ Value smsglocalkeys(const Array& params, bool fHelp)
             if (!IsMine(*pwalletMain, entry.first))
                 continue;
             
-            CHeldCoinAddress coinAddress(entry.first);
+            CThreeAcesAddress coinAddress(entry.first);
             if (!coinAddress.IsValid())
                 continue;
             
@@ -461,7 +461,7 @@ Value smsggetpubkey(const Array& params, bool fHelp)
             return result;
     };
     
-    CHeldCoinAddress coinAddress(address);
+    CThreeAcesAddress coinAddress(address);
     
     
     CKeyID keyID;

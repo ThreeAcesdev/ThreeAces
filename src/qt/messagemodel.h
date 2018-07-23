@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to HeldCoin Secure Messaging from Qt view code. */
+/** Interface to ThreeAces Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

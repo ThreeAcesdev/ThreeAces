@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HeldCoin</source>
-        <translation>Sobre HeldCoin</translation>
+        <source>About ThreeAces</source>
+        <translation>Sobre ThreeAces</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HeldCoin&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;HeldCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;ThreeAces&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;ThreeAces&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The HeldCoin developers</source>
+Copyright © 2015-2017 The ThreeAces developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The HeldCoin developers</translation>
+Copyright © 2015-2017 The ThreeAces developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HeldCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de HeldCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your ThreeAces addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de ThreeAces per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HeldCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça HeldCoin</translation>
+        <source>Sign a message to prove you own a ThreeAces address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça ThreeAces</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HeldCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça HeldCoin especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified ThreeAces address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça ThreeAces especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>HeldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HeldCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>ThreeAces will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ThreeAces tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HeldCoin</source>
-        <translation>Mostra informació sobre HeldCoin</translation>
+        <source>Show information about ThreeAces</source>
+        <translation>Mostra informació sobre ThreeAces</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HeldCoin address</source>
-        <translation>Enviar monedes a una adreça HeldCoin</translation>
+        <source>Send coins to a ThreeAces address</source>
+        <translation>Enviar monedes a una adreça ThreeAces</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HeldCoin</source>
-        <translation>Modificar les opcions de configuració per a HeldCoin</translation>
+        <source>Modify configuration options for ThreeAces</source>
+        <translation>Modificar les opcions de configuració per a ThreeAces</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>HeldCoin</source>
-        <translation>HeldCoin</translation>
+        <source>ThreeAces</source>
+        <translation>ThreeAces</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HeldCoin</source>
-        <translation>&amp;Sobre HeldCoin</translation>
+        <source>&amp;About ThreeAces</source>
+        <translation>&amp;Sobre ThreeAces</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HeldCoin client</source>
-        <translation>Client HeldCoin</translation>
+        <source>ThreeAces client</source>
+        <translation>Client ThreeAces</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HeldCoin network</source>
-        <translation><numerusform>%n conexió activa a la xarxa HeldCoin</numerusform><numerusform>%n conexions actives a la xarxa HeldCoin</numerusform></translation>
+        <source>%n active connection(s) to ThreeAces network</source>
+        <translation><numerusform>%n conexió activa a la xarxa ThreeAces</numerusform><numerusform>%n conexions actives a la xarxa ThreeAces</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -596,8 +596,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HeldCoin address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça HeldCoin no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ThreeAces address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça ThreeAces no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -719,8 +719,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HeldCoin can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. HeldCoin ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. ThreeAces can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. ThreeAces ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1053,8 +1053,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HeldCoin address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça HeldCoin vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ThreeAces address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça ThreeAces vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,8 +1072,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HeldCoin-Qt</source>
-        <translation>HeldCoin-Qt</translation>
+        <source>ThreeAces-Qt</source>
+        <translation>ThreeAces-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1145,13 +1145,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HeldCoin after logging in to the system.</source>
-        <translation>Inicia automàticament HeldCoin després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start ThreeAces after logging in to the system.</source>
+        <translation>Inicia automàticament ThreeAces després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HeldCoin on system login</source>
-        <translation>&amp;Iniciar HeldCoin amb l&apos;inici de sessió</translation>
+        <source>&amp;Start ThreeAces on system login</source>
+        <translation>&amp;Iniciar ThreeAces amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1160,8 +1160,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HeldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client HeldCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the ThreeAces client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client ThreeAces en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1170,8 +1170,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the HeldCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa HeldCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the ThreeAces network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa ThreeAces través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1245,8 +1245,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HeldCoin.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar HeldCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ThreeAces.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar ThreeAces.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1312,8 +1312,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HeldCoin.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar HeldCoin.</translation>
+        <source>This setting will take effect after restarting ThreeAces.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar ThreeAces.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1331,8 +1331,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HeldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa HeldCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ThreeAces network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa ThreeAces després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1573,8 +1573,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HeldCoin-Qt help message to get a list with possible HeldCoin command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de HeldCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres HeldCoin.</translation>
+        <source>Show the ThreeAces-Qt help message to get a list with possible ThreeAces command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de ThreeAces-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres ThreeAces.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1593,13 +1593,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>HeldCoin - Debug window</source>
-        <translation>HeldCoin - Finestra Depuració</translation>
+        <source>ThreeAces - Debug window</source>
+        <translation>ThreeAces - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HeldCoin Core</source>
-        <translation>Nucli HeldCoin</translation>
+        <source>ThreeAces Core</source>
+        <translation>Nucli ThreeAces</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1608,8 +1608,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HeldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració HeldCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the ThreeAces debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració ThreeAces des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1618,8 +1618,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the HeldCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de HeldCoin.</translation>
+        <source>Welcome to the ThreeAces RPC console.</source>
+        <translation>Benvingut a la consola RPC de ThreeAces.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1727,8 +1727,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 HLDC</source>
-        <translation>123.456 HLDC {0.00 ?}</translation>
+        <source>0.00 ACES</source>
+        <translation>123.456 ACES {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1797,8 +1797,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 HLDC</source>
-        <translation>123.456 HLDC</translation>
+        <source>123.456 ACES</source>
+        <translation>123.456 ACES</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1812,8 +1812,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça HeldCoin (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça ThreeAces (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1912,8 +1912,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid HeldCoin address</source>
-        <translation>ADVERTÈNCIA: Direcció HeldCoin invàlida</translation>
+        <source>WARNING: Invalid ThreeAces address</source>
+        <translation>ADVERTÈNCIA: Direcció ThreeAces invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1986,8 +1986,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça HeldCoin (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça ThreeAces (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2047,8 +2047,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HeldCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça HeldCoin</translation>
+        <source>Sign the message to prove you own this ThreeAces address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça ThreeAces</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2079,8 +2079,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HeldCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça HeldCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified ThreeAces address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça ThreeAces especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2090,8 +2090,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça HeldCoin (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça ThreeAces (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2100,8 +2100,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HeldCoin signature</source>
-        <translation>Introduïu la signatura HeldCoin</translation>
+        <source>Enter ThreeAces signature</source>
+        <translation>Introduïu la signatura ThreeAces</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2679,8 +2679,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>HeldCoin version</source>
-        <translation>versió HeldCoin</translation>
+        <source>ThreeAces version</source>
+        <translation>versió ThreeAces</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2689,8 +2689,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or heldcoind</source>
-        <translation>Enviar comandes a -server o heldcoind</translation>
+        <source>Send command to -server or acesd</source>
+        <translation>Enviar comandes a -server o acesd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2709,13 +2709,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: HeldCoin.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: HeldCoin.conf)</translation>
+        <source>Specify configuration file (default: ThreeAces.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: ThreeAces.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: heldcoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: heldcoind.pid)</translation>
+        <source>Specify pid file (default: acesd.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: acesd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2732,13 +2732,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=HeldCoinrpc
+rpcuser=ThreeAcesrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ThreeAces Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2844,8 +2844,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HeldCoin will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni HeldCoin no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ThreeAces will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni ThreeAces no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3152,7 +3152,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. HeldCoin is shutting down.</source>
+        <source>Initialization sanity check failed. ThreeAces is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3217,13 +3217,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HeldCoin</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de HeldCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ThreeAces</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de ThreeAces</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HeldCoin to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar HeldCoin per completar</translation>
+        <source>Wallet needed to be rewritten: restart ThreeAces to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar ThreeAces per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3287,8 +3287,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. HeldCoin is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. HeldCoin probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. ThreeAces is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. ThreeAces probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3327,7 +3327,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HeldCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. ThreeAces is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

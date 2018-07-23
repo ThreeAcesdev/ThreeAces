@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizeHeldCoinAmount"))
-        settings.setValue("nAnonymizeHeldCoinAmount", 1000);
-    nAnonymizeHeldCoinAmount = settings.value("nAnonymizeHeldCoinAmount").toLongLong();
+    if (!settings.contains("nAnonymizeThreeAcesAmount"))
+        settings.setValue("nAnonymizeThreeAcesAmount", 1000);
+    nAnonymizeThreeAcesAmount = settings.value("nAnonymizeThreeAcesAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeHeldCoinAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeHeldCoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeThreeAcesAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeThreeAcesAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeHeldCoinAmount:
-            return QVariant(nAnonymizeHeldCoinAmount);
+        case AnonymizeThreeAcesAmount:
+            return QVariant(nAnonymizeThreeAcesAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeHeldCoinAmount:
-            nAnonymizeHeldCoinAmount = value.toInt();
-            settings.setValue("nAnonymizeHeldCoinAmount", nAnonymizeHeldCoinAmount);
-            emit AnonymizeHeldCoinAmountChanged(nAnonymizeHeldCoinAmount);
+        case AnonymizeThreeAcesAmount:
+            nAnonymizeThreeAcesAmount = value.toInt();
+            settings.setValue("nAnonymizeThreeAcesAmount", nAnonymizeThreeAcesAmount);
+            emit AnonymizeThreeAcesAmountChanged(nAnonymizeThreeAcesAmount);
             break;
         default:
             break;

@@ -40,7 +40,7 @@ string HTTPPost(const string& strMsg, const map<string,string>& mapRequestHeader
 {
     ostringstream s;
     s << "POST / HTTP/1.1\r\n"
-      << "User-Agent: HeldCoin-json-rpc/" << FormatFullVersion() << "\r\n"
+      << "User-Agent: ThreeAces-json-rpc/" << FormatFullVersion() << "\r\n"
       << "Host: 127.0.0.1\r\n"
       << "Content-Type: application/json\r\n"
       << "Content-Length: " << strMsg.size() << "\r\n"
@@ -63,7 +63,7 @@ string HTTPReply(int nStatus, const string& strMsg, bool keepalive)
     if (nStatus == HTTP_UNAUTHORIZED)
         return strprintf("HTTP/1.0 401 Authorization Required\r\n"
             "Date: %s\r\n"
-            "Server: HeldCoin-json-rpc/%s\r\n"
+            "Server: ThreeAces-json-rpc/%s\r\n"
             "WWW-Authenticate: Basic realm=\"jsonrpc\"\r\n"
             "Access-Control-Allow-Headers: Authorization, Content-Type\r\n"
             "Access-Control-Allow-Origin: *\r\n"
@@ -92,7 +92,7 @@ string HTTPReply(int nStatus, const string& strMsg, bool keepalive)
             "Connection: %s\r\n"
             "Content-Length: %u\r\n"
             "Content-Type: application/json\r\n"
-            "Server: HeldCoin-json-rpc/%s\r\n"
+            "Server: ThreeAces-json-rpc/%s\r\n"
             "Access-Control-Allow-Origin: *\r\n"
             "Access-Control-Allow-Headers: Authorization, Content-Type\r\n"
             "\r\n"

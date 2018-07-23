@@ -105,7 +105,7 @@ CScript _createmultisig(const Array& params)
         const std::string& ks = keys[i].get_str();
 #ifdef ENABLE_WALLET
         // Case 1: Bitcoin address and we have full public key:
-        CHeldCoinAddress address(ks);
+        CThreeAcesAddress address(ks);
         if (pwalletMain && address.IsValid())
         {
             CKeyID keyID;
@@ -175,7 +175,7 @@ Value createmultisig(const Array& params, bool fHelp)
     // Construct using pay-to-script-hash:
     CScript inner = _createmultisig(params);
     CScriptID innerID = inner.GetID();
-    CHeldCoinAddress address(innerID);
+    CThreeAcesAddress address(innerID);
 
     Object result;
     result.push_back(Pair("address", address.ToString()));
@@ -216,13 +216,13 @@ Value getnewaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getnewaddress ( \"account\" )\n"
-            "\nReturns a new HeldCoin address for receiving payments.\n"
+            "\nReturns a new ThreeAces address for receiving payments.\n"
             "If 'account' is specified (recommended), it is added to the address book \n"
             "so payments received with the address will be credited to 'account'.\n"
             "\nArguments:\n"
             "1. \"account\"        (string, optional) The account name for the address to be linked to. if not provided, the default account \"\" is used. It can also be set to the empty string \"\" to represent the default account. The account does not need to exist, it will be created if there is no account by the given name.\n"
             "\nResult:\n"
-            "\"HeldCoinaddress\"    (string) The new HeldCoin address\n"
+            "\"ThreeAcesaddress\"    (string) The new ThreeAces address\n"
             "\nExamples:\n"
             + HelpExampleCli("getnewaddress", "")
             + HelpExampleCli("getnewaddress", "\"\"")
@@ -246,11 +246,11 @@ Value getnewaddress(const Array& params, bool fHelp)
 
     pwalletMain->SetAddressBookName(keyID, strAccount);
 
-    return CHeldCoinAddress(keyID).ToString();
+    return CThreeAcesAddress(keyID).ToString();
 }
 
 
-CHeldCoinAddress GetAccountAddress(string strAccount, bool bForceNew=false)
+CThreeAcesAddress GetAccountAddress(string strAccount, bool bForceNew=false)
 {
     CWalletDB walletdb(pwalletMain->strWalletFile);
 
@@ -285,7 +285,7 @@ CHeldCoinAddress GetAccountAddress(string strAccount, bool bForceNew=false)
         walletdb.WriteAccount(strAccount, account);
     }
 
-    return CHeldCoinAddress(account.vchPubKey.GetID());
+    return CThreeAcesAddress(account.vchPubKey.GetID());
 }
 
 Value getaccountaddress(const Array& params, bool fHelp)
@@ -293,11 +293,11 @@ Value getaccountaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "getaccountaddress \"account\"\n"
-            "\nReturns the current HeldCoin address for receiving payments to this account.\n"
+            "\nReturns the current ThreeAces address for receiving payments to this account.\n"
             "\nArguments:\n"
             "1. \"account\"       (string, required) The account name for the address. It can also be set to the empty string \"\" to represent the default account. The account does not need to exist, it will be created and a new address created  if there is no account by the given name.\n"
             "\nResult:\n"
-            "\"HeldCoinaddress\"   (string) The account HeldCoin address\n"
+            "\"ThreeAcesaddress\"   (string) The account ThreeAces address\n"
             "\nExamples:\n"
             + HelpExampleCli("getaccountaddress", "")
             + HelpExampleCli("getaccountaddress", "\"\"")
@@ -321,19 +321,19 @@ Value setaccount(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "setaccount \"HeldCoinaddress\" \"account\"\n"
+            "setaccount \"ThreeAcesaddress\" \"account\"\n"
             "\nSets the account associated with the given address.\n"
             "\nArguments:\n"
-            "1. \"HeldCoinaddress\"  (string, required) The HeldCoin address to be associated with an account.\n"
+            "1. \"ThreeAcesaddress\"  (string, required) The ThreeAces address to be associated with an account.\n"
             "2. \"account\"         (string, required) The account to assign the address to.\n"
             "\nExamples:\n"
             + HelpExampleCli("setaccount", "\"TfFxcTN7BJQp88cPJYRvFpUAAKefTib9uh\" \"tabby\"")
             + HelpExampleRpc("setaccount", "\"TfFxcTN7BJQp88cPJYRvFpUAAKefTib9uh\", \"tabby\"")
         );
 
-    CHeldCoinAddress address(params[0].get_str());
+    CThreeAcesAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid HeldCoin address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid ThreeAces address");
 
 
     string strAccount;
@@ -363,10 +363,10 @@ Value getaccount(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "getaccount \"HeldCoinaddress\"\n"
+            "getaccount \"ThreeAcesaddress\"\n"
             "\nReturns the account associated with the given address.\n"
             "\nArguments:\n"
-            "1. \"HeldCoinaddress\"  (string, required) The HeldCoin address for account lookup.\n"
+            "1. \"ThreeAcesaddress\"  (string, required) The ThreeAces address for account lookup.\n"
             "\nResult:\n"
             "\"accountname\"        (string) the account address\n"
             "\nExamples:\n"
@@ -374,9 +374,9 @@ Value getaccount(const Array& params, bool fHelp)
             + HelpExampleRpc("getaccount", "\"TfFxcTN7BJQp88cPJYRvFpUAAKefTib9uh\"")
         );
 
-    CHeldCoinAddress address(params[0].get_str());
+    CThreeAcesAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid HeldCoin address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid ThreeAces address");
 
     string strAccount;
     map<CTxDestination, string>::iterator mi = pwalletMain->mapAddressBook.find(address.Get());
@@ -396,7 +396,7 @@ Value getaddressesbyaccount(const Array& params, bool fHelp)
             "1. \"account\"  (string, required) The account name.\n"
             "\nResult:\n"
             "[                     (json array of string)\n"
-            "  \"HeldCoinaddress\"  (string) a HeldCoin address associated with the given account\n"
+            "  \"ThreeAcesaddress\"  (string) a ThreeAces address associated with the given account\n"
             "  ,...\n"
             "]\n"
             "\nExamples:\n"
@@ -408,9 +408,9 @@ Value getaddressesbyaccount(const Array& params, bool fHelp)
 
     // Find all addresses that have the given account
     Array ret;
-    BOOST_FOREACH(const PAIRTYPE(CHeldCoinAddress, string)& item, pwalletMain->mapAddressBook)
+    BOOST_FOREACH(const PAIRTYPE(CThreeAcesAddress, string)& item, pwalletMain->mapAddressBook)
     {
-        const CHeldCoinAddress& address = item.first;
+        const CThreeAcesAddress& address = item.first;
         const string& strName = item.second;
         if (strName == strAccount)
             ret.push_back(address.ToString());
@@ -422,12 +422,12 @@ Value sendtoaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 2 || params.size() > 4)
         throw runtime_error(
-            "sendtoaddress \"HeldCoinaddress\" amount ( \"comment\" \"comment-to\" )\n"
+            "sendtoaddress \"ThreeAcesaddress\" amount ( \"comment\" \"comment-to\" )\n"
             "\nSent an amount to a given address. The amount is a real and is rounded to the nearest 0.00000001\n"
             + HelpRequiringPassphrase() +
             "\nArguments:\n"
-           "1. \"HeldCoinaddress\"  (string, required) The HeldCoin address to send to.\n"
-            "2. \"amount\"      (numeric, required) The amount in HLDC to send. eg 0.1\n"
+           "1. \"ThreeAcesaddress\"  (string, required) The ThreeAces address to send to.\n"
+            "2. \"amount\"      (numeric, required) The amount in ACES to send. eg 0.1\n"
             "3. \"comment\"     (string, optional) A comment used to store what the transaction is for. \n"
             "                             This is not part of the transaction, just kept in your wallet.\n"
             "4. \"comment-to\"  (string, optional) A comment to store the name of the person or organization \n"
@@ -447,9 +447,9 @@ Value sendtoaddress(const Array& params, bool fHelp)
         && IsStealthAddress(params[0].get_str()))
         return sendtostealthaddress(params, false);
 
-    CHeldCoinAddress address(params[0].get_str());
+    CThreeAcesAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid HeldCoin address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid ThreeAces address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);
@@ -487,7 +487,7 @@ Value listaddressgroupings(const Array& params, bool fHelp)
             "[\n"
             "  [\n"
             "    [\n"
-            "      \"HeldCoinaddress\",     (string) The HeldCoin address\n"
+            "      \"ThreeAcesaddress\",     (string) The ThreeAces address\n"
             "      amount,                 (numeric) The amount in btc\n"
             "      \"account\"             (string, optional) The account\n"
             "    ]\n"
@@ -508,12 +508,12 @@ Value listaddressgroupings(const Array& params, bool fHelp)
         BOOST_FOREACH(CTxDestination address, grouping)
         {
             Array addressInfo;
-            addressInfo.push_back(CHeldCoinAddress(address).ToString());
+            addressInfo.push_back(CThreeAcesAddress(address).ToString());
             addressInfo.push_back(ValueFromAmount(balances[address]));
             {
                 LOCK(pwalletMain->cs_wallet);
-                if (pwalletMain->mapAddressBook.find(CHeldCoinAddress(address).Get()) != pwalletMain->mapAddressBook.end())
-                    addressInfo.push_back(pwalletMain->mapAddressBook.find(CHeldCoinAddress(address).Get())->second);
+                if (pwalletMain->mapAddressBook.find(CThreeAcesAddress(address).Get()) != pwalletMain->mapAddressBook.end())
+                    addressInfo.push_back(pwalletMain->mapAddressBook.find(CThreeAcesAddress(address).Get())->second);
             }
             jsonGrouping.push_back(addressInfo);
         }
@@ -526,11 +526,11 @@ Value signmessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "signmessage \"HeldCoinaddress\" \"message\"\n"
+            "signmessage \"ThreeAcesaddress\" \"message\"\n"
             "\nSign a message with the private key of an address"
             + HelpRequiringPassphrase() + "\n"
             "\nArguments:\n"
-            "1. \"HeldCoinaddress\"  (string, required) The HeldCoin address to use for the private key.\n"
+            "1. \"ThreeAcesaddress\"  (string, required) The ThreeAces address to use for the private key.\n"
             "2. \"message\"         (string, required) The message to create a signature of.\n"
             "\nResult:\n"
             "\"signature\"          (string) The signature of the message encoded in base 64\n"
@@ -550,7 +550,7 @@ Value signmessage(const Array& params, bool fHelp)
     string strAddress = params[0].get_str();
     string strMessage = params[1].get_str();
 
-    CHeldCoinAddress addr(strAddress);
+    CThreeAcesAddress addr(strAddress);
     if (!addr.IsValid())
         throw JSONRPCError(RPC_TYPE_ERROR, "Invalid address");
 
@@ -577,13 +577,13 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "getreceivedbyaddress \"HeldCoinaddress\" ( minconf )\n"
-            "\nReturns the total amount received by the given HeldCoinaddress in transactions with at least minconf confirmations.\n"
+            "getreceivedbyaddress \"ThreeAcesaddress\" ( minconf )\n"
+            "\nReturns the total amount received by the given ThreeAcesaddress in transactions with at least minconf confirmations.\n"
             "\nArguments:\n"
-            "1. \"HeldCoinaddress\"  (string, required) The HeldCoin address for transactions.\n"
+            "1. \"ThreeAcesaddress\"  (string, required) The ThreeAces address for transactions.\n"
             "2. minconf             (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "\nResult:\n"
-            "amount   (numeric) The total amount in HLDC received at this address.\n"
+            "amount   (numeric) The total amount in ACES received at this address.\n"
             "\nExamples:\n"
             "\nThe amount from transactions with at least 1 confirmation\n"
             + HelpExampleCli("getreceivedbyaddress", "\"TfFxcTN7BJQp88cPJYRvFpUAAKefTib9uh\"") +
@@ -596,10 +596,10 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
        );
 
     // Bitcoin address
-    CHeldCoinAddress address = CHeldCoinAddress(params[0].get_str());
+    CThreeAcesAddress address = CThreeAcesAddress(params[0].get_str());
     CScript scriptPubKey;
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid HeldCoin address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid ThreeAces address");
     scriptPubKey.SetDestination(address.Get());
     if (!IsMine(*pwalletMain,scriptPubKey))
         return (double)0.0;
@@ -648,7 +648,7 @@ Value getreceivedbyaccount(const Array& params, bool fHelp)
             "1. \"account\"      (string, required) The selected account, may be the default account using \"\".\n"
             "2. minconf          (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "\nResult:\n"
-            "amount              (numeric) The total amount in HLDC received for this account.\n"
+            "amount              (numeric) The total amount in ACES received for this account.\n"
             "\nExamples:\n"
             "\nAmount received by the default account with at least 1 confirmation\n"
             + HelpExampleCli("getreceivedbyaccount", "\"\"") +
@@ -739,7 +739,7 @@ Value getbalance(const Array& params, bool fHelp)
             "2. minconf          (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "3. includeWatchonly (bool, optional, default=false) Also include balance in watchonly addresses (see 'importaddress')\n"
             "\nResult:\n"
-            "amount              (numeric) The total amount in HLDC received for this account.\n"
+            "amount              (numeric) The total amount in ACES received for this account.\n"
             "\nExamples:\n"
             "\nThe total amount in the server across all accounts\n"
             + HelpExampleCli("getbalance", "") +
@@ -816,11 +816,11 @@ Value movecmd(const Array& params, bool fHelp)
             "\nResult:\n"
             "true|false           (boolean) true if successfull.\n"
             "\nExamples:\n"
-            "\nMove 0.01 HLDC from the default account to the account named tabby\n"
+            "\nMove 0.01 ACES from the default account to the account named tabby\n"
             + HelpExampleCli("move", "\"\" \"tabby\" 0.01") +
-            "\nMove 0.01 HLDC timotei to akiko with a comment and funds have 10 confirmations\n"
+            "\nMove 0.01 ACES timotei to akiko with a comment and funds have 10 confirmations\n"
             + HelpExampleCli("move", "\"timotei\" \"akiko\" 0.01 10 \"happy birthday!\"") +
-            "\nAs a json HLDC call\n"
+            "\nAs a json ACES call\n"
             + HelpExampleRpc("move", "\"timotei\", \"akiko\", 0.01, 10, \"happy birthday!\"")
         );
 
@@ -874,14 +874,14 @@ Value sendfrom(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 3 || params.size() > 7)
         throw runtime_error(
-            "sendfrom \"fromaccount\" \"toHeldCoinaddress\" amount ( minconf \"comment\" \"comment-to\" )\n"
-            "\nSent an amount from an account to a HeldCoin address.\n"
+            "sendfrom \"fromaccount\" \"toThreeAcesaddress\" amount ( minconf \"comment\" \"comment-to\" )\n"
+            "\nSent an amount from an account to a ThreeAces address.\n"
             "The amount is a real and is rounded to the nearest 0.00000001."
             + HelpRequiringPassphrase() + "\n"
             "\nArguments:\n"
             "1. \"fromaccount\"       (string, required) The name of the account to send funds from. May be the default account using \"\".\n"
-            "2. \"toHeldCoinaddress\"  (string, required) The HeldCoin address to send funds to.\n"
-            "3. amount                (numeric, required) The amount in HLDC. (transaction fee is added on top).\n"
+            "2. \"toThreeAcesaddress\"  (string, required) The ThreeAces address to send funds to.\n"
+            "3. amount                (numeric, required) The amount in ACES. (transaction fee is added on top).\n"
             "4. minconf               (numeric, optional, default=1) Only use funds with at least this many confirmations.\n"
             "5. \"comment\"           (string, optional) A comment used to store what the transaction is for. \n"
             "                                     This is not part of the transaction, just kept in your wallet.\n"
@@ -891,7 +891,7 @@ Value sendfrom(const Array& params, bool fHelp)
             "\nResult:\n"
             "\"transactionid\"        (string) The transaction id.\n"
             "\nExamples:\n"
-            "\nSend 0.01 HLDC from the default account to the address, must have at least 1 confirmation\n"
+            "\nSend 0.01 ACES from the default account to the address, must have at least 1 confirmation\n"
             + HelpExampleCli("sendfrom", "\"\" \"TfFxcTN7BJQp88cPJYRvFpUAAKefTib9uh\" 0.01") +
             "\nSend 0.01 from the tabby account to the given address, funds must have at least 10 confirmations\n"
             + HelpExampleCli("sendfrom", "\"tabby\" \"TfFxcTN7BJQp88cPJYRvFpUAAKefTib9uh\" 0.01 10 \"reward\" \"seans outpost\"") +
@@ -902,9 +902,9 @@ Value sendfrom(const Array& params, bool fHelp)
     EnsureWalletIsUnlocked();
 
     string strAccount = AccountFromValue(params[0]);
-    CHeldCoinAddress address(params[1].get_str());
+    CThreeAcesAddress address(params[1].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid HeldCoin address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid ThreeAces address");
     CAmount nAmount = AmountFromValue(params[2]);
 
     int nMinDepth = 1;
@@ -951,7 +951,7 @@ Value sendmany(const Array& params, bool fHelp)
             "1. \"fromaccount\"         (string, required) The account to send the funds from, can be \"\" for the default account\n"
             "2. \"amounts\"             (string, required) A json object with addresses and amounts\n"
             "    {\n"
-            "      \"address\":amount   (numeric) The HeldCoin address is the key, the numeric amount in HLDC is the value\n"
+            "      \"address\":amount   (numeric) The ThreeAces address is the key, the numeric amount in ACES is the value\n"
             "      ,...\n"
             "    }\n"
             "3. minconf                 (numeric, optional, default=1) Only use the balance confirmed at least this many times.\n"
@@ -979,15 +979,15 @@ Value sendmany(const Array& params, bool fHelp)
     if (params.size() > 3 && params[3].type() != null_type && !params[3].get_str().empty())
         wtx.mapValue["comment"] = params[3].get_str();
 
-    set<CHeldCoinAddress> setAddress;
+    set<CThreeAcesAddress> setAddress;
     vector<pair<CScript, int64_t> > vecSend;
 
     int64_t totalAmount = 0;
     BOOST_FOREACH(const Pair& s, sendTo)
     {
-        CHeldCoinAddress address(s.name_);
+        CThreeAcesAddress address(s.name_);
         if (!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid HeldCoin address: ")+s.name_);
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid ThreeAces address: ")+s.name_);
 
         if (setAddress.count(address))
             throw JSONRPCError(RPC_INVALID_PARAMETER, string("Invalid parameter, duplicated address: ")+s.name_);
@@ -1036,20 +1036,20 @@ Value addmultisigaddress(const Array& params, bool fHelp)
     {
         string msg = "addmultisigaddress nrequired [\"key\",...] ( \"account\" )\n"
             "\nAdd a nrequired-to-sign multisignature address to the wallet.\n"
-            "Each key is a HeldCoin address or hex-encoded public key.\n"
+            "Each key is a ThreeAces address or hex-encoded public key.\n"
             "If 'account' is specified, assign address to that account.\n"
 
             "\nArguments:\n"
             "1. nrequired        (numeric, required) The number of required signatures out of the n keys or addresses.\n"
-            "2. \"keysobject\"   (string, required) A json array of HeldCoin addresses or hex-encoded public keys\n"
+            "2. \"keysobject\"   (string, required) A json array of ThreeAces addresses or hex-encoded public keys\n"
             "     [\n"
-            "       \"address\"  (string) HeldCoin address or hex-encoded public key\n"
+            "       \"address\"  (string) ThreeAces address or hex-encoded public key\n"
             "       ...,\n"
             "     ]\n"
             "3. \"account\"      (string, optional) An account to assign the addresses to.\n"
 
             "\nResult:\n"
-            "\"HeldCoinaddress\"  (string) A HeldCoin address associated with the keys.\n"
+            "\"ThreeAcesaddress\"  (string) A ThreeAces address associated with the keys.\n"
 
             "\nExamples:\n"
             "\nAdd a multisig address from 2 addresses\n"
@@ -1080,7 +1080,7 @@ Value addmultisigaddress(const Array& params, bool fHelp)
         const std::string& ks = keys[i].get_str();
 
         // Case 1: Bitcoin address and we have full public key:
-        CHeldCoinAddress address(ks);
+        CThreeAcesAddress address(ks);
         if (pwalletMain && address.IsValid())
         {
             CKeyID keyID;
@@ -1118,7 +1118,7 @@ Value addmultisigaddress(const Array& params, bool fHelp)
         throw runtime_error("AddCScript() failed");
 
     pwalletMain->SetAddressBookName(innerID, strAccount);
-    return CHeldCoinAddress(innerID).ToString();
+    return CThreeAcesAddress(innerID).ToString();
 }
 
 Value addredeemscript(const Array& params, bool fHelp)
@@ -1143,7 +1143,7 @@ Value addredeemscript(const Array& params, bool fHelp)
         throw runtime_error("AddCScript() failed");
 
     pwalletMain->SetAddressBookName(innerID, strAccount);
-    return CHeldCoinAddress(innerID).ToString();
+    return CThreeAcesAddress(innerID).ToString();
 }
 
 struct tallyitem
@@ -1180,7 +1180,7 @@ Value ListReceived(const Array& params, bool fByAccounts)
             filter = filter | ISMINE_WATCH_ONLY;
 
     // Tally
-    map<CHeldCoinAddress, tallyitem> mapTally;
+    map<CThreeAcesAddress, tallyitem> mapTally;
     for (map<uint256, CWalletTx>::iterator it = pwalletMain->mapWallet.begin(); it != pwalletMain->mapWallet.end(); ++it)
     {
         const CWalletTx& wtx = (*it).second;
@@ -1216,11 +1216,11 @@ Value ListReceived(const Array& params, bool fByAccounts)
     // Reply
     Array ret;
     map<string, tallyitem> mapAccountTally;
-    BOOST_FOREACH(const PAIRTYPE(CHeldCoinAddress, string)& item, pwalletMain->mapAddressBook)
+    BOOST_FOREACH(const PAIRTYPE(CThreeAcesAddress, string)& item, pwalletMain->mapAddressBook)
     {
-        const CHeldCoinAddress& address = item.first;
+        const CThreeAcesAddress& address = item.first;
         const string& strAccount = item.second;
-        map<CHeldCoinAddress, tallyitem>::iterator it = mapTally.find(address);
+        map<CThreeAcesAddress, tallyitem>::iterator it = mapTally.find(address);
         if (it == mapTally.end() && !fIncludeEmpty)
             continue;
 
@@ -1305,7 +1305,7 @@ Value listreceivedbyaddress(const Array& params, bool fHelp)
             "    \"involvesWatchonly\" : \"true\",    (bool) Only returned if imported addresses were involved in transaction\n"
             "    \"address\" : \"receivingaddress\",  (string) The receiving address\n"
             "    \"account\" : \"accountname\",       (string) The account of the receiving address. The default account is \"\".\n"
-            "    \"amount\" : x.xxx,                  (numeric) The total amount in HLDC received by the address\n"
+            "    \"amount\" : x.xxx,                  (numeric) The total amount in ACES received by the address\n"
             "    \"confirmations\" : n                (numeric) The number of confirmations of the most recent transaction included\n"
             "    \"bcconfirmations\" : n              (numeric) The number of Blockchain confirmations of the most recent transaction included\n"
             "  }\n"
@@ -1357,7 +1357,7 @@ Value listreceivedbyaccount(const Array& params, bool fHelp)
 
 static void MaybePushAddress(Object & entry, const CTxDestination &dest)
 {
-    CHeldCoinAddress addr;
+    CThreeAcesAddress addr;
     if (addr.Set(dest))
         entry.push_back(Pair("address", addr.ToString()));
 }
@@ -1475,13 +1475,13 @@ Value listtransactions(const Array& params, bool fHelp)
             "  {\n"
             "    \"account\":\"accountname\",       (string) The account name associated with the transaction. \n"
             "                                                It will be \"\" for the default account.\n"
-            "    \"address\":\"HeldCoinaddress\",    (string) The HeldCoin address of the transaction. Not present for \n"
+            "    \"address\":\"ThreeAcesaddress\",    (string) The ThreeAces address of the transaction. Not present for \n"
             "                                                move transactions (category = move).\n"
             "    \"category\":\"send|receive|move\", (string) The transaction category. 'move' is a local (off blockchain)\n"
             "                                                transaction between accounts, and not associated with an address,\n"
             "                                                transaction id or block. 'send' and 'receive' transactions are \n"
             "                                                associated with an address, transaction id and block details\n"
-            "    \"amount\": x.xxx,          (numeric) The amount in HLDC. This is negative for the 'send' category, and for the\n"
+            "    \"amount\": x.xxx,          (numeric) The amount in ACES. This is negative for the 'send' category, and for the\n"
             "                                         'move' category for moves outbound. It is positive for the 'receive' category,\n"
             "                                         and for the 'move' category for inbound funds.\n"
             "    \"fee\": x.xxx,             (numeric) The amount of the fee in btc. This is negative and only available for the \n"
@@ -1660,9 +1660,9 @@ Value listsinceblock(const Array& params, bool fHelp)
             "{\n"
             "  \"transactions\": [\n"
             "    \"account\":\"accountname\",       (string) The account name associated with the transaction. Will be \"\" for the default account.\n"
-            "    \"address\":\"HeldCoinaddress\",    (string) The HeldCoin address of the transaction. Not present for move transactions (category = move).\n"
+            "    \"address\":\"ThreeAcesaddress\",    (string) The ThreeAces address of the transaction. Not present for move transactions (category = move).\n"
             "    \"category\":\"send|receive\",     (string) The transaction category. 'send' has negative amounts, 'receive' has positive amounts.\n"
-            "    \"amount\": x.xxx,          (numeric) The amount in HLDC. This is negative for the 'send' category, and for the 'move' category for moves \n"
+            "    \"amount\": x.xxx,          (numeric) The amount in ACES. This is negative for the 'send' category, and for the 'move' category for moves \n"
             "                                          outbound. It is positive for the 'receive' category, and for the 'move' category for inbound funds.\n"
             "    \"fee\": x.xxx,             (numeric) The amount of the fee in btc. This is negative and only available for the 'send' category of transactions.\n"
             "    \"confirmations\": n,       (numeric) The number of confirmations for the transaction. Available for 'send' and 'receive' category of transactions.\n"
@@ -1768,7 +1768,7 @@ Value gettransaction(const Array& params, bool fHelp)
             "  \"details\" : [\n"
             "    {\n"
             "      \"account\" : \"accountname\",  (string) The account name involved in the transaction, can be \"\" for the default account.\n"
-            "      \"address\" : \"HeldCoinaddress\",   (string) The HeldCoin address involved in the transaction\n"
+            "      \"address\" : \"ThreeAcesaddress\",   (string) The ThreeAces address involved in the transaction\n"
             "      \"category\" : \"send|receive\",    (string) The category, either 'send' or 'receive'\n"
             "      \"amount\" : x.xxx                  (numeric) The amount in btc\n"
             "    }\n"
@@ -1917,7 +1917,7 @@ Value walletpassphrase(const Array& params, bool fHelp)
         throw runtime_error(
             "walletpassphrase \"passphrase\" timeout ( anonymizeonly )\n"
             "\nStores the wallet decryption key in memory for 'timeout' seconds.\n"
-            "This is needed prior to performing transactions related to private keys such as sending HLDC\n"
+            "This is needed prior to performing transactions related to private keys such as sending ACES\n"
             "\nArguments:\n"
             "1. \"passphrase\"     (string, required) The wallet passphrase\n"
             "2. timeout            (numeric, required) The time to keep the decryption key in seconds.\n"
@@ -2068,10 +2068,10 @@ Value encryptwallet(const Array& params, bool fHelp)
             "\nExamples:\n"
             "\nEncrypt you wallet\n"
             + HelpExampleCli("encryptwallet", "\"my pass phrase\"") +
-            "\nNow set the passphrase to use the wallet, such as for signing or sending HeldCoin\n"
+            "\nNow set the passphrase to use the wallet, such as for signing or sending ThreeAces\n"
             + HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
             "\nNow we can so something like sign\n"
-            + HelpExampleCli("signmessage", "\"HeldCoinaddress\" \"test message\"") +
+            + HelpExampleCli("signmessage", "\"ThreeAcesaddress\" \"test message\"") +
             "\nNow lock the wallet again by removing the passphrase\n"
             + HelpExampleCli("walletlock", "") +
             "\nAs a json rpc call\n"
@@ -2101,7 +2101,7 @@ Value encryptwallet(const Array& params, bool fHelp)
     // slack space in .dat files; that is bad if the old data is
     // unencrypted private keys. So:
     StartShutdown();
-    return "wallet encrypted; HeldCoin server stopping, restart to run with encrypted wallet. The keypool has been flushed, you need to make a new backup.";
+    return "wallet encrypted; ThreeAces server stopping, restart to run with encrypted wallet. The keypool has been flushed, you need to make a new backup.";
 }
 
 
@@ -2233,7 +2233,7 @@ Value settxfee(const Array& params, bool fHelp)
             "settxfee amount\n"
             "\nSet the transaction fee per kB.\n"
             "\nArguments:\n"
-            "1. amount         (numeric, required) The transaction fee in HLDC/kB rounded to the nearest 0.00000001\n"
+            "1. amount         (numeric, required) The transaction fee in ACES/kB rounded to the nearest 0.00000001\n"
             "\nResult\n"
             "true|false        (boolean) Returns true if successful\n"
             "\nExamples:\n"
@@ -2253,7 +2253,7 @@ Value getnewstealthaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getnewstealthaddress [label]\n"
-            "Returns a new HeldCoin stealth address for receiving payments anonymously.  ");
+            "Returns a new ThreeAces stealth address for receiving payments anonymously.  ");
 
     if (pwalletMain->IsLocked())
         throw runtime_error("Failed: Wallet must be unlocked.");
@@ -2459,7 +2459,7 @@ Value sendtostealthaddress(const Array& params, bool fHelp)
 
     if (!sxAddr.SetEncoded(sEncoded))
     {
-        result.push_back(Pair("result", "Invalid HeldCoin stealth address."));
+        result.push_back(Pair("result", "Invalid ThreeAces stealth address."));
         return result;
     };
 

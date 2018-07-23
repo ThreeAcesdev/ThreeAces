@@ -10,15 +10,15 @@ BOOST_SUFFIX?=-mgw49-mt-s-1_57
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"d:/project/HeldCoin/include/boost-1_57" \
- -I"d:/project/HeldCoin/include/miniupnpc" \
- -I"d:/project/HeldCoin/include" \
- -I"d:/project/HeldCoin"
+ -I"d:/project/ThreeAces/include/boost-1_57" \
+ -I"d:/project/ThreeAces/include/miniupnpc" \
+ -I"d:/project/ThreeAces/include" \
+ -I"d:/project/ThreeAces"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- -L"d:/project/HeldCoin/lib" \
- -L"d:/project/HeldCoin"
+ -L"d:/project/ThreeAces/lib" \
+ -L"d:/project/ThreeAces"
 
 LIBS= \
  -l leveldb \
@@ -126,7 +126,7 @@ ifeq (${USE_WALLET}, 1)
         obj/walletdb.o
 endif
 
-all: heldcoind.exe
+all: acesd.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a -l shlwapi
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -142,12 +142,12 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-heldcoind.exe: $(OBJS:obj/%=obj/%)
+acesd.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
 	-rm -f obj/*.o
-	-rm -f heldcoind.exe
+	-rm -f acesd.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=NATIVE_WINDOWS $(MAKE) clean && cd ..
 

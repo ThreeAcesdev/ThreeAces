@@ -42,7 +42,7 @@ public:
         CoinControlFeatures,    // bool
         UseBlackTheme,     // bool
         DarksendRounds,    // int
-        AnonymizeHeldCoinAmount, //int
+        AnonymizeThreeAcesAmount, //int
         OptionIDRowCount,
     };
 
@@ -84,7 +84,7 @@ signals:
     void reserveBalanceChanged(qint64);
     void coinControlFeaturesChanged(bool);
     void darksendRoundsChanged(int);
-    void AnonymizeHeldCoinAmountChanged(int);
+    void AnonymizeThreeAcesAmountChanged(int);
 };
 
 #endif // OPTIONSMODEL_H

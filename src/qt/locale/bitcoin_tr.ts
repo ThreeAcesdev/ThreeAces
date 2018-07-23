@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HeldCoin</source>
-        <translation>HeldCoin Hakkında</translation>
+        <source>About ThreeAces</source>
+        <translation>ThreeAces Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HeldCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;HeldCoin&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;ThreeAces&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ThreeAces&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The HeldCoin developers</source>
+Copyright © 2015-2017 The ThreeAces developers</source>
         <translation>Telif Hakkı © 2009-2014 Bitcoin geliştiricileri
 Telif Hakkı © 2012-2014 NovaCoin geliştiricileri
-Telif Hakkı © 2015-2017 HeldCoin geliştiricileri</translation>
+Telif Hakkı © 2015-2017 ThreeAces geliştiricileri</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HeldCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için HeldCoin adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your ThreeAces addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için ThreeAces adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HeldCoin address</source>
-        <translation>Bir HeldCoin adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a ThreeAces address</source>
+        <translation>Bir ThreeAces adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HeldCoin address</source>
-        <translation>Mesajın, belirli bir HeldCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified ThreeAces address</source>
+        <translation>Mesajın, belirli bir ThreeAces adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+82"/>
-        <source>HeldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HeldCoin, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>ThreeAces will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ThreeAces, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HeldCoin</source>
-        <translation>HeldCoin hakkındaki bilgiyi göster</translation>
+        <source>Show information about ThreeAces</source>
+        <translation>ThreeAces hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HeldCoin address</source>
-        <translation>Bir HeldCoin adresine coin gönder</translation>
+        <source>Send coins to a ThreeAces address</source>
+        <translation>Bir ThreeAces adresine coin gönder</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HeldCoin</source>
-        <translation>HeldCoin yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for ThreeAces</source>
+        <translation>ThreeAces yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>HeldCoin</source>
-        <translation>HeldCoin</translation>
+        <source>ThreeAces</source>
+        <translation>ThreeAces</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -453,8 +453,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HeldCoin</source>
-        <translation>HeldCoin &amp;Hakkında</translation>
+        <source>&amp;About ThreeAces</source>
+        <translation>ThreeAces &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HeldCoin client</source>
-        <translation>HeldCoin istemcisi</translation>
+        <source>ThreeAces client</source>
+        <translation>ThreeAces istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HeldCoin network</source>
-        <translation><numerusform>HeldCoin ağına %n etkin bağlantı</numerusform><numerusform>HeldCoin ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to ThreeAces network</source>
+        <translation><numerusform>ThreeAces ağına %n etkin bağlantı</numerusform><numerusform>ThreeAces ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,8 +605,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HeldCoin address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir HeldCoin adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ThreeAces address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir ThreeAces adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -728,8 +728,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HeldCoin can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. HeldCoin artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. ThreeAces can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. ThreeAces artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HeldCoin address.</source>
-        <translation>Girilen %1 adresi, geçerli bir HeldCoin adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ThreeAces address.</source>
+        <translation>Girilen %1 adresi, geçerli bir ThreeAces adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HeldCoin-Qt</source>
-        <translation>HeldCoin-Qt</translation>
+        <source>ThreeAces-Qt</source>
+        <translation>ThreeAces-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HeldCoin after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra HeldCoin&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start ThreeAces after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra ThreeAces&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HeldCoin on system login</source>
-        <translation>Sisteme girişte HeldCoin&apos;i &amp;başlat</translation>
+        <source>&amp;Start ThreeAces on system login</source>
+        <translation>Sisteme girişte ThreeAces&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1169,8 +1169,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HeldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide HeldCoin istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the ThreeAces client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide ThreeAces istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1179,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the HeldCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>HeldCoin ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
+        <source>Connect to the ThreeAces network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>ThreeAces ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1254,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HeldCoin.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, HeldCoin yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ThreeAces.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, ThreeAces yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1321,8 +1321,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HeldCoin.</source>
-        <translation>Bu ayar, HeldCoin&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+        <source>This setting will take effect after restarting ThreeAces.</source>
+        <translation>Bu ayar, ThreeAces&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1340,8 +1340,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HeldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak HeldCoin ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ThreeAces network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak ThreeAces ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1582,8 +1582,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HeldCoin-Qt help message to get a list with possible HeldCoin command-line options.</source>
-        <translation>Muhtemel HeldCoin komut satırı seçeneklerinin bir listesini getirmek için HeldCoin-Qt yardım mesajını göster</translation>
+        <source>Show the ThreeAces-Qt help message to get a list with possible ThreeAces command-line options.</source>
+        <translation>Muhtemel ThreeAces komut satırı seçeneklerinin bir listesini getirmek için ThreeAces-Qt yardım mesajını göster</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1602,13 +1602,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>HeldCoin - Debug window</source>
-        <translation>HeldCoin - Hata ayıklama penceresi</translation>
+        <source>ThreeAces - Debug window</source>
+        <translation>ThreeAces - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HeldCoin Core</source>
-        <translation>HeldCoin Core</translation>
+        <source>ThreeAces Core</source>
+        <translation>ThreeAces Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1617,8 +1617,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HeldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>HeldCoin hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the ThreeAces debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>ThreeAces hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1627,8 +1627,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the HeldCoin RPC console.</source>
-        <translation>HeldCoin RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the ThreeAces RPC console.</source>
+        <translation>ThreeAces RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1736,8 +1736,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 HLDC</source>
-        <translation>123.456 HLDC {0.00 ?}</translation>
+        <source>0.00 ACES</source>
+        <translation>123.456 ACES {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1806,8 +1806,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 HLDC</source>
-        <translation>123.456 HLDC</translation>
+        <source>123.456 ACES</source>
+        <translation>123.456 ACES</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1821,8 +1821,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir HeldCoin adresi gir (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir ThreeAces adresi gir (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1921,8 +1921,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid HeldCoin address</source>
-        <translation>UYARI: Geçersiz HeldCoin adresi</translation>
+        <source>WARNING: Invalid ThreeAces address</source>
+        <translation>UYARI: Geçersiz ThreeAces adresi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1995,8 +1995,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir HeldCoin adresi girin (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir ThreeAces adresi girin (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2056,8 +2056,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HeldCoin address</source>
-        <translation>Bu HeldCoin adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this ThreeAces address</source>
+        <translation>Bu ThreeAces adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2088,8 +2088,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HeldCoin address</source>
-        <translation>Mesajın, belirtilen HeldCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify the message to ensure it was signed with the specified ThreeAces address</source>
+        <translation>Mesajın, belirtilen ThreeAces adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2099,8 +2099,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir HeldCoin adresi girin (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir ThreeAces adresi girin (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2109,8 +2109,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HeldCoin signature</source>
-        <translation>HeldCoin imzası gir</translation>
+        <source>Enter ThreeAces signature</source>
+        <translation>ThreeAces imzası gir</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2688,8 +2688,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>HeldCoin version</source>
-        <translation>HeldCoin versiyonu</translation>
+        <source>ThreeAces version</source>
+        <translation>ThreeAces versiyonu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2698,8 +2698,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or heldcoind</source>
-        <translation>-sunucu veya heldcoind&apos;ye komut gönder</translation>
+        <source>Send command to -server or acesd</source>
+        <translation>-sunucu veya acesd&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2718,13 +2718,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: HeldCoin.conf)</source>
-        <translation>Konfigürasyon dosyasını belirt (varsayılan: HeldCoin.conf)</translation>
+        <source>Specify configuration file (default: ThreeAces.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: ThreeAces.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: heldcoind.pid)</source>
-        <translation>pid dosyasını belirt (varsayılan: HeldCoin.pid)</translation>
+        <source>Specify pid file (default: acesd.pid)</source>
+        <translation>pid dosyasını belirt (varsayılan: ThreeAces.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2741,13 +2741,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=HeldCoinrpc
+rpcuser=ThreeAcesrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ThreeAces Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2853,8 +2853,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HeldCoin will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, HeldCoin düzgün çalışmayacaktır.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ThreeAces will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, ThreeAces düzgün çalışmayacaktır.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3160,8 +3160,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. HeldCoin is shutting down.</source>
-        <translation>Başlangıç uygunluk kontrolü başarısız oldu. HeldCoin kapatılıyor.</translation>
+        <source>Initialization sanity check failed. ThreeAces is shutting down.</source>
+        <translation>Başlangıç uygunluk kontrolü başarısız oldu. ThreeAces kapatılıyor.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3225,13 +3225,13 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HeldCoin</source>
-        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir HeldCoin versiyonuna ihtiyaç duyuyor.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ThreeAces</source>
+        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir ThreeAces versiyonuna ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HeldCoin to complete</source>
-        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için HeldCoin&apos;i yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart ThreeAces to complete</source>
+        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için ThreeAces&apos;i yeniden başlatın</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3295,8 +3295,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. HeldCoin is probably already running.</source>
-        <translation>Bu bilgisayarda %s bağlanamadı. HeldCoin muhtemelen halen çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. ThreeAces is probably already running.</source>
+        <translation>Bu bilgisayarda %s bağlanamadı. ThreeAces muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3335,7 +3335,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HeldCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. ThreeAces is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

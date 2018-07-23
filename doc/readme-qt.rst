@@ -1,4 +1,4 @@
-HeldCoin-qt: Qt5 GUI for HeldCoin
+ThreeAces-qt: Qt5 GUI for ThreeAces
 ===============================
 
 Build instructions
@@ -24,9 +24,9 @@ then execute the following:
     qmake
     make
 
-Alternatively, install Qt Creator and open the `HeldCoin-qt.pro` file.
+Alternatively, install Qt Creator and open the `ThreeAces-qt.pro` file.
 
-An executable named `HeldCoin-qt` will be built.
+An executable named `ThreeAces-qt` will be built.
 
 
 Windows
@@ -69,7 +69,7 @@ Build configuration options
 UPNnP port forwarding
 ---------------------
 
-To use UPnP for port forwarding behind a NAT router (recommended, as more connections overall allow for a faster and more stable HeldCoin experience), pass the following argument to qmake:
+To use UPnP for port forwarding behind a NAT router (recommended, as more connections overall allow for a faster and more stable ThreeAces experience), pass the following argument to qmake:
 
 ::
 
@@ -117,9 +117,9 @@ flag to qmake to control this:
 Berkely DB version warning
 ==========================
 
-A warning for people using the *static binary* version of HeldCoin on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
+A warning for people using the *static binary* version of ThreeAces on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
 
-The static binary version of HeldCoin is linked against libdb 5.0 (see also `this Debian issue`_).
+The static binary version of ThreeAces is linked against libdb 5.0 (see also `this Debian issue`_).
 
 Now the nasty thing is that databases from 5.X are not compatible with 4.X.
 
@@ -134,7 +134,7 @@ Ubuntu 11.10 warning
 ====================
 
 Ubuntu 11.10 has a package called 'qt-at-spi' installed by default.  At the time of writing, having that package
-installed causes HeldCoin-qt to crash intermittently.  The issue has been reported as `launchpad bug 857790`_, but
+installed causes ThreeAces-qt to crash intermittently.  The issue has been reported as `launchpad bug 857790`_, but
 isn't yet fixed.
 
 Until the bug is fixed, you can remove the qt-at-spi package to work around the problem, though this will presumably

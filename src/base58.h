@@ -92,23 +92,23 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-/** base58-encoded HeldCoin addresses.
+/** base58-encoded ThreeAces addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).
  * The data vector contains RIPEMD160(SHA256(pubkey)), where pubkey is the serialized public key.
  * Script-hash-addresses have version 5 (or 196 testnet).
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
-class CHeldCoinAddress : public CBase58Data {
+class CThreeAcesAddress : public CBase58Data {
 public:
     bool Set(const CKeyID &id);
     bool Set(const CScriptID &id);
     bool Set(const CTxDestination &dest);
     bool IsValid() const;
 
-    CHeldCoinAddress() {}
-    CHeldCoinAddress(const CTxDestination &dest) { Set(dest); }
-    CHeldCoinAddress(const std::string& strAddress) { SetString(strAddress); }
-    CHeldCoinAddress(const char* pszAddress) { SetString(pszAddress); }
+    CThreeAcesAddress() {}
+    CThreeAcesAddress(const CTxDestination &dest) { Set(dest); }
+    CThreeAcesAddress(const std::string& strAddress) { SetString(strAddress); }
+    CThreeAcesAddress(const char* pszAddress) { SetString(pszAddress); }
 
     CTxDestination Get() const;
     bool GetKeyID(CKeyID &keyID) const;
@@ -118,7 +118,7 @@ public:
 /**
  * A base58-encoded secret key
  */
-class CHeldCoinSecret : public CBase58Data
+class CThreeAcesSecret : public CBase58Data
 {
 public:
     void SetKey(const CKey& vchSecret);
@@ -127,11 +127,11 @@ public:
     bool SetString(const char* pszSecret);
     bool SetString(const std::string& strSecret);
 
-    CHeldCoinSecret(const CKey& vchSecret) { SetKey(vchSecret); }
-    CHeldCoinSecret() {}
+    CThreeAcesSecret(const CKey& vchSecret) { SetKey(vchSecret); }
+    CThreeAcesSecret() {}
 };
 
-template<typename K, int Size, CChainParams::Base58Type Type> class CHeldCoinExtKeyBase : public CBase58Data
+template<typename K, int Size, CChainParams::Base58Type Type> class CThreeAcesExtKeyBase : public CBase58Data
 {
 public:
     void SetKey(const K &key) {
@@ -146,15 +146,15 @@ public:
         return ret;
     }
 
-    CHeldCoinExtKeyBase(const K &key) {
+    CThreeAcesExtKeyBase(const K &key) {
         SetKey(key);
     }
 
-    CHeldCoinExtKeyBase() {}
+    CThreeAcesExtKeyBase() {}
 };
 
-typedef CHeldCoinExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CHeldCoinExtKey;
-typedef CHeldCoinExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CHeldCoinExtPubKey;
+typedef CThreeAcesExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CThreeAcesExtKey;
+typedef CThreeAcesExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CThreeAcesExtPubKey;
 
 /** base58-encoded Bitcoin addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).

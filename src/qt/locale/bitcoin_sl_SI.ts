@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HeldCoin</source>
-        <translation>O HeldCoin</translation>
+        <source>About ThreeAces</source>
+        <translation>O ThreeAces</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HeldCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;HeldCoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;ThreeAces&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ThreeAces&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The HeldCoin developers</source>
+Copyright © 2015-2017 The ThreeAces developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HeldCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši HeldCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your ThreeAces addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši ThreeAces naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HeldCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva HeldCoin naslova</translation>
+        <source>Sign a message to prove you own a ThreeAces address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva ThreeAces naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HeldCoin address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim HeldCoin naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified ThreeAces address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim ThreeAces naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>HeldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HeldCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>ThreeAces will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ThreeAces se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HeldCoin</source>
-        <translation>Pokaži informacije o HeldCoin</translation>
+        <source>Show information about ThreeAces</source>
+        <translation>Pokaži informacije o ThreeAces</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,13 +390,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HeldCoin address</source>
-        <translation>Pošlji kovance na HeldCoin naslov</translation>
+        <source>Send coins to a ThreeAces address</source>
+        <translation>Pošlji kovance na ThreeAces naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HeldCoin</source>
-        <translation>Spremeni nastavitve za HeldCoin</translation>
+        <source>Modify configuration options for ThreeAces</source>
+        <translation>Spremeni nastavitve za ThreeAces</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>HeldCoin</source>
-        <translation>HeldCoin</translation>
+        <source>ThreeAces</source>
+        <translation>ThreeAces</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HeldCoin</source>
-        <translation>&amp;O HeldCoin</translation>
+        <source>&amp;About ThreeAces</source>
+        <translation>&amp;O ThreeAces</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HeldCoin client</source>
-        <translation>HeldCoin program</translation>
+        <source>ThreeAces client</source>
+        <translation>ThreeAces program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HeldCoin network</source>
-        <translation><numerusform>%n aktivne povezave na HeldCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HeldCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HeldCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HeldCoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to ThreeAces network</source>
+        <translation><numerusform>%n aktivne povezave na ThreeAces omrežje</numerusform><numerusform>%n aktivnih povezav na ThreeAces omrežje</numerusform><numerusform>%n aktivnih povezav na ThreeAces omrežje</numerusform><numerusform>%n aktivnih povezav na ThreeAces omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HeldCoin address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega HeldCoin naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ThreeAces address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega ThreeAces naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HeldCoin can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program HeldCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. ThreeAces can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program ThreeAces se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HeldCoin address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven HeldCoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ThreeAces address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven ThreeAces naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HeldCoin-Qt</source>
-        <translation>HeldCoin-Qt</translation>
+        <source>ThreeAces-Qt</source>
+        <translation>ThreeAces-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HeldCoin after logging in to the system.</source>
-        <translation>Avtomatično zaženi HeldCoin ob zagonu sistema.</translation>
+        <source>Automatically start ThreeAces after logging in to the system.</source>
+        <translation>Avtomatično zaženi ThreeAces ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HeldCoin on system login</source>
-        <translation>&amp;Zaženi HeldCoin ob prijavi v sistem</translation>
+        <source>&amp;Start ThreeAces on system login</source>
+        <translation>&amp;Zaženi ThreeAces ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1162,8 +1162,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HeldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za HeldCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the ThreeAces client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za ThreeAces program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1172,8 +1172,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the HeldCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na HeldCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the ThreeAces network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na ThreeAces omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1247,8 +1247,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HeldCoin.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu HeldCoin aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ThreeAces.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu ThreeAces aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1314,8 +1314,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HeldCoin.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu HeldCoin aplikacije</translation>
+        <source>This setting will take effect after restarting ThreeAces.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu ThreeAces aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1333,8 +1333,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HeldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z HeldCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ThreeAces network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z ThreeAces omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1575,8 +1575,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HeldCoin-Qt help message to get a list with possible HeldCoin command-line options.</source>
-        <translation>Prikaži HeldCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice HeldCoin aplikacije</translation>
+        <source>Show the ThreeAces-Qt help message to get a list with possible ThreeAces command-line options.</source>
+        <translation>Prikaži ThreeAces-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice ThreeAces aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1595,13 +1595,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>HeldCoin - Debug window</source>
-        <translation>HeldCoin - okno za odpravljanje napak</translation>
+        <source>ThreeAces - Debug window</source>
+        <translation>ThreeAces - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HeldCoin Core</source>
-        <translation>HeldCoin jedro</translation>
+        <source>ThreeAces Core</source>
+        <translation>ThreeAces jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1610,8 +1610,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HeldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri HeldCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the ThreeAces debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri ThreeAces datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1620,8 +1620,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the HeldCoin RPC console.</source>
-        <translation>Dobrodošli v HeldCoin RPC konzoli.</translation>
+        <source>Welcome to the ThreeAces RPC console.</source>
+        <translation>Dobrodošli v ThreeAces RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1729,8 +1729,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 HLDC</source>
-        <translation>123.456 HLDC {0.00 ?}</translation>
+        <source>0.00 ACES</source>
+        <translation>123.456 ACES {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1799,8 +1799,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 HLDC</source>
-        <translation>123.456 HLDC</translation>
+        <source>123.456 ACES</source>
+        <translation>123.456 ACES</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1814,8 +1814,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite HeldCoin naslov (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite ThreeAces naslov (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1914,8 +1914,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid HeldCoin address</source>
-        <translation>OPOZORILO: Neveljaven HeldCoin naslov</translation>
+        <source>WARNING: Invalid ThreeAces address</source>
+        <translation>OPOZORILO: Neveljaven ThreeAces naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1988,8 +1988,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite HeldCoin naslov (npr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite ThreeAces naslov (npr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2049,8 +2049,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HeldCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva HeldCoin naslova</translation>
+        <source>Sign the message to prove you own this ThreeAces address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva ThreeAces naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2081,8 +2081,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HeldCoin address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim HeldCoin naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified ThreeAces address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim ThreeAces naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2092,8 +2092,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HeldCoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite HeldCoin naslov (npr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a ThreeAces address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite ThreeAces naslov (npr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2102,8 +2102,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HeldCoin signature</source>
-        <translation>Vnesite HeldCoin podpis</translation>
+        <source>Enter ThreeAces signature</source>
+        <translation>Vnesite ThreeAces podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2681,8 +2681,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>HeldCoin version</source>
-        <translation>HeldCoin različica</translation>
+        <source>ThreeAces version</source>
+        <translation>ThreeAces različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2691,7 +2691,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or heldcoind</source>
+        <source>Send command to -server or acesd</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2711,13 +2711,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: HeldCoin.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: HeldCoin.conf)</translation>
+        <source>Specify configuration file (default: ThreeAces.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: ThreeAces.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: heldcoind.pid)</source>
-        <translation>Določi pid datoteko (privzeto: HeldCoin.pid)</translation>
+        <source>Specify pid file (default: acesd.pid)</source>
+        <translation>Določi pid datoteko (privzeto: ThreeAces.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2734,13 +2734,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=HeldCoinrpc
+rpcuser=ThreeAcesrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ThreeAces Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2846,8 +2846,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HeldCoin will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno HeldCoin ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ThreeAces will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno ThreeAces ne bo deloval.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3153,7 +3153,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. HeldCoin is shutting down.</source>
+        <source>Initialization sanity check failed. ThreeAces is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3218,13 +3218,13 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HeldCoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo HeldCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ThreeAces</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo ThreeAces</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HeldCoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite HeldCoin za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart ThreeAces to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite ThreeAces za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3288,8 +3288,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. HeldCoin is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča HeldCoin aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. ThreeAces is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča ThreeAces aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3328,7 +3328,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HeldCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HeldCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. ThreeAces is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
