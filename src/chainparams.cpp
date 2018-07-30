@@ -65,26 +65,26 @@ public:
 		nRPCPort = 47720;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 		
-		const char* pszTimestamp = "Start ThreeAces altcoin 22 July 2018";
+		const char* pszTimestamp = "Start ThreeAces altcoin July 30 2018";
 		std::vector<CTxIn> vin;
 		vin.resize(1);
 		vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
 		std::vector<CTxOut> vout;
 		vout.resize(1);
 		vout[0].SetEmpty();
-		CTransaction txNew(1, 1532241600, vin, vout, 0);
+		CTransaction txNew(1, 1532962800, vin, vout, 0);
 		genesis.vtx.push_back(txNew);
 		genesis.hashPrevBlock = 0;
 		genesis.hashMerkleRoot = genesis.BuildMerkleTree();
 		genesis.nVersion = 1;
-		genesis.nTime = 1532241600;
+		genesis.nTime = 1532962800;
 		genesis.nBits = 0x1f00ffff;
-		genesis.nNonce = 52490;
+		genesis.nNonce = 71270;
 
 		hashGenesisBlock = genesis.GetHash();
 
 		
-		assert(hashGenesisBlock == uint256("0x7aeabb684f2e4c648184d458739719fed7343a0f5ad36a1861c63cff62506c2c"));
+		assert(hashGenesisBlock == uint256("0x4da377f30b1092932c65478369c79efd97543df7e91a925eb1b3a9cd6f36e1f0"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 40);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
@@ -139,9 +139,9 @@ public:
 		strDataDir = "testnet";
 		// Modify the testnet genesis block so the timestamp is valid for a later start.
 		genesis.nBits = 0x1f00ffff;
-		genesis.nNonce = 52490;      
+		genesis.nNonce = 71270;      
 
-		assert(hashGenesisBlock == uint256("0x7aeabb684f2e4c648184d458739719fed7343a0f5ad36a1861c63cff62506c2c"));
+		assert(hashGenesisBlock == uint256("0x4da377f30b1092932c65478369c79efd97543df7e91a925eb1b3a9cd6f36e1f0"));
 
 		vFixedSeeds.clear();
 		vSeeds.clear();
